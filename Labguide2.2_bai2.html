@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài tập 2</title>
+  <style>
+  .maunen{
+	  background:#9F9;
+	  color:#0C3;
+  }
+  </style>
+</head>
+<body>
+<form>
+  <font color="green"> <strong>Phiếu đăng kí tham gia chương trình khuyến mãi</strong></font>
+  <table width="200" border="1" cellpadding="0" cellspacing="0">
+    <tr class="maunen">
+      <td>Họ và tên</td>
+      <td> <input type="text" name="txt" id="txt" placeholder="Nguyễn Ngọc Quỳnh Nga" required></td>
+    </tr>
+    <tr class="maunen">
+      <td>Địa chỉ</td>
+      <td> <input type="text" name="txt" id="txt" placeholder="2 Bia Hùng Vương, Q10" required></td>
+    </tr>
+    <tr class="maunen">
+      <td>Điện thoại</td>
+      <td> <input type="text" name="dt" id="txt" placeholder="0909097506" required></td>
+    </tr>
+    <tr class="maunen">
+      <td>Phái</td>
+      <td> <input type="radio" name="rd" id="rd1" checked>
+    <label for="rd1">Nam</label>
+    <input type="radio" name="rd" id="rd2">
+    <label for="rd1">Nữ</label></td>
+    </tr>
+    <tr class="maunen">
+      <td>Nghề nghiệp</td>
+      <td>  <Select name="tinhThanh" id="tinhThanh"> 
+        <option value="1">Bác sĩ</option>
+        <option value="2">Kỹ sư</option>
+        <option value="3">Giáo viên</option>
+        <option value="4">Khác</option>
+    </Select></td>
+    </tr>
+    <tr class="maunen">
+      <td>Chọn sản phẩm tham gia</td>
+      <td><Select name="sanPham" id="sanPham" multiple> 
+        <option value="1">Kem đánh răng</option>
+        <option value="2">Bột giặt</option>
+        <option value="3">Dầu gội đầu</option>
+         <option value="4">Sữa tắm</option>
+    </Select></td>
+    </tr>
+    <tr class="maunen">
+      <td>Số người dự đoán tham gia</td>
+      <td><input type="text" name="txt2" id="txt2" placeholder="25000" required></td>
+    </tr>
+    <tr class="maunen">
+      <td colspan="2" align="center"> <input type="submit" value="Đồng ý"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

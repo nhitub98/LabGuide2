@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài tập 3</title>
+  <style>
+  .maunen{
+	  background:#F8E387;
+	  color:#1C86E6;
+  }
+  </style>
+</head>
+<body>
+<form>
+  <div align="center"><strong><font color="#1C86E6">Đăng ký du lịch</font></strong>
+  </div>
+  <div align="center">
+    <table width="438" border="1" cellpadding="0" cellspacing="0">
+      <tr class="maunen">
+        <td width="151">Họ và tên</td>
+        <td width="281"> <input type="text" name="txt" id="txt" placeholder="Phạm Ngọc Cẩm Đào" required></td>
+      </tr>
+      <tr class="maunen">
+        <td>Địa chỉ</td>
+        <td> <input type="text" name="txt" id="txt" placeholder="227 Nguyễn Văn Cừ" required></td>
+      </tr>
+      <tr class="maunen">
+        <td>Điện thoại</td>
+        <td> <input type="text" name="dt" id="txt" placeholder="8351056" required></td>
+      </tr>
+      <tr class="maunen">
+        <td>Khách Việt Nam</td>
+        <td><input type="checkbox" name="chk1" id="chk1" checked>
+        </td>
+      </tr>
+      <tr class="maunen">
+        <td>Chọn tour</td>
+        <td>  <Select name="chonTour" id="chonTour" >
+          <option value="1">Hà Nội- Hạ Long- Sapa</option>
+          <option value="2">Hà Nội - Chùa Hương- Ninh Bình</option>
+          <option value="3">Hà Nội- Cát Bà- Tuần Châu</option>
+          <option value="4">Huế- Bạch Mã- Đà Nẵng</option>
+          <option value="5">Nha Trang- Đà Lạt</option>
+          <option value="6">Buôn Mê Thuột - Gia Lai - Kontum</option>
+          <option value="5">TP.HCM- Cần Thơ - Cà Mau</option>
+          <option value="6">TP.HCM - Mỹ Tho</option>
+        </Select></td>
+      </tr>
+      <tr class="maunen">
+        <td>Phương tiện</td>
+        <td> <input type="radio" name="rd" id="rd1" checked>
+          <label for="rd1">Máy bay</label>
+          <input type="radio" name="rd" id="rd2">
+        <label for="rd1">Ô tô</label></td>
+      </tr>
+      <tr class="maunen">
+        <td colspan="2"><p align="center"><font color="#FFA87D"><em>Số lượng đoàn khách</font>
+         </p>
+          <p>Người lớn
+            <input type="text" name="txt2" id="txt2" placeholder="6" required size="4">
+            Trẻ em
+            <input type="text" name="txt3" id="txt3" placeholder="4" required  size="4">
+        </p></td>
+      </tr>
+      <tr class="maunen">
+        <td align="center">Ghi chú thêm</td>
+        <td align="center"><select name="Cars" size="5">  
+          <option value="duoi6"> Có 2 trẻ em dưới 6 tuổi</option>  
+          <option value="anchay"> Có 2 người ăn chay </option>  
+          
+  </select>  </td>
+      </tr>
+      <tr class="maunen">
+        <td colspan="2" align="center"> <input type="submit" value="Đồng ý"></td>
+      </tr>
+    </table>
+  </div>
+</form>
+</body>
+</html>
